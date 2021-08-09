@@ -224,7 +224,7 @@ body{
     }
 
     .banner p{
-        width: 300px;
+        width: 350px;
         font-size: 18px;
     }
 
@@ -256,6 +256,6 @@ body{
     }
 
     .campos button{
-        min-width: 50%;
+        min-width: 45%;
     }
 }
