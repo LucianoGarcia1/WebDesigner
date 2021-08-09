@@ -250,14 +250,16 @@ body{
     }
 
     /*responsividade home*/
-    .campos{
-        padding: 30px;
-    }
+    
     .campos input{
-        min-width: 120%;
+        min-width: 115%;
     }
 
     .campos button{
-        min-width: 50%;
+        min-width: 40%;
+    }
+    
+    .confi p{
+         min-width: 340px;
     }
 }
