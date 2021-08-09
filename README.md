@@ -12,4 +12,4 @@
 ### Icones
 - Font awesome
 
-<a href="https://web-designer.vercel.app/index.html" target="blank">Visitar Pagina</a>
+<a href="https://web-designer.vercel.app/index.html" target="_blank">Visitar Pagina</a>
