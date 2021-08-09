@@ -241,7 +241,7 @@ body{
 
 @media screen and (max-width:768px){
     .contact p{
-        min-width: 200px;
+        width: 160px;
     }
     .fx{
         width: 100%;
