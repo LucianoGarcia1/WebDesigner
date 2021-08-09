@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Logomarca">
+	<meta name="description" content="A Logomarca e uma Empresa de Desenvolvimento web...">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Contato - Logomarca</title>
+    <script src="https://kit.fontawesome.com/7a98acb87b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><h2>Logomarca</h2></a>
+        </div>
+
+        <nav id="nav">
+            <button id="btn-mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="">Empresa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contato</h2>
+
+        <p>Quis non ad mollit duis deserunt sit amet eiusmod occaecat in consectetur magna commodo elit laborum magna cupidatat voluptate.</p>
+    </section>
+
+    <section class="contact-inputs">
+        <div class="content-input">
+            <div class="content-popup">
+                <p>Entre em contato que estaremos respondendo o mais breve possível!</p>
+            </div>
+
+            <form>
+                    <input type="text" placeholder="Nome..." required>
+
+                    <input type="text" placeholder="Sobrenome..." required>
+
+                    <input type="email" placeholder="E-mail..." required>
+
+                    <textarea placeholder="Sua mensagem..."></textarea>
+
+                    <input type="submit" class="enviar" value="Enviar">
+            </form>
+        </div>
+
+        <div class="content-info">
+            <h3><i class="fas fa-comment-dots"></i> Fale com a nossa equipe!</h3>
+
+            <p>Commodo enim duis veniam laborum dolore nostrud cupidatat deserunt.</p>
+
+            <div class="sociais">
+                <h4><i class="fab fa-instagram"></i> /instagram</h4>
+            </div>
+
+            <div class="sociais">
+                <h4><i class="fab fa-facebook-f"></i> /facebook</h4>
+            </div>
+
+            <div class="sociais">
+                <h4><i class="fab fa-linkedin-in"></i> /linkedin</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="local">
+            <h3>Aonde estamos?</h3>
+            <p><i class="fas fa-road"></i> R. exemplo da silva, Coqueiros, Rio de janeiro/RJ</p>
+
+            <b><i class="fas fa-phone-alt"></i> (48)9999-9999</b>
+
+            <b><i class="fas fa-phone-alt"></i> (21)9999-9999</b>
+        </div>
+
+        <div class="nav-bar">
+            <h3>Links Úteis</h3>
+
+            <ol>
+                <li><a href="index.html">Logomarca</a></li>
+                <li><a href="">W3Schools</a></li>
+                <li><a href="">Danki Code</a></li>
+
+                <li><a href="">Contato</a></li>
+            </ol>
+        </div>
+
+        <div class="redes">
+            <h3>Conecte-se conosco</h3>
+
+            <a href="https://www.instagram.com/lc.garcia21/"><i class="fab fa-instagram"></i></a>
+
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <span>Todos Direitos Reservados</span>
+    </div>
+
+    <script>
+        const btnMobile = document.getElementById('btn-mobile');
+
+        function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+        }
+
+        btnMobile.addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>

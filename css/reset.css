@@ -1,0 +1,260 @@
+@import url(../css/style.css);
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media screen and (max-width:1320px){
+
+    /*responsividade home*/
+
+    .sobre{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    .ifn-team{
+        width: 50%;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .main{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .contact-inputs{
+        padding: 20px 0px 20px 0;
+    }
+    .campos{
+        display: flex;
+    }
+
+    .campos input{
+        min-width: 70%;
+    }
+
+    .campos button{
+        min-width: 25%;
+    }
+}
+
+@media screen and (max-width:1300px){
+
+    .contact p{
+        text-align: center;
+    }
+
+    .contact-inputs{
+        flex-direction: column;
+        padding: 20px 0px 20px 0;
+    }
+
+    /*responsividade contact*/
+
+    /*responsividade home*/
+
+    .galeria-section{
+        min-width: 40%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .fotos{
+        align-items: center;
+    }
+
+    .equipe{
+        align-items: center;
+    }
+
+    .content-sobre{
+        align-items: center;
+    }
+    .content-sobre p{
+        font-size: 16px;
+        width: 500px;
+    }
+
+    .sobre{
+        height: 600px;
+    }
+
+    .vitrine{
+        height: 680px;
+    }
+    .banner h2{
+        font-size: 40px;
+    }
+
+    .banner p{
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .confi{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .historia p{
+        width: 400px;
+    }
+    
+    .ifn-team{
+        width: 60%;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+    form textarea{
+        min-width: 85%;
+    }
+
+    /*responsividade home*/
+
+    .sub-footer{
+        padding: 0px 0px 20px;
+    }
+
+    footer{
+        margin-top: 30px;
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+    }
+
+    .local{
+        margin-bottom: 20px;
+    }
+
+    .nav-bar{
+        margin-bottom: 20px;
+    }
+
+    .galeria-section{
+        min-width: 60%;
+        margin-top: 30px;
+    }
+
+    .campos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .campos input{
+        min-width: 70%;
+    }
+
+    .campos button{
+        min-width: 30%;
+    }
+
+    .content-sobre p{
+        font-size: 16px;
+        width: 400px;
+    }
+
+    .sobre{
+        min-height: 1000px;
+        flex-direction: column;
+    }
+
+    #btn-mobile{
+        display: block;
+        background-color: white;
+        border: none;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        background-color: black;
+        top: 120px;
+        right: 0;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        text-align: center;
+    }
+
+    #nav.active #menu{
+        visibility: visible;
+        height: 232px;
+        text-align: center;
+    }
+
+    #menu a{
+        border-bottom: 2px solid rgba(0, 0, 0, .04);
+        padding: 15px;
+        color: white;    
+    }
+
+    #menu a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .banner h2{
+        font-size: 38px;
+    }
+
+    .banner p{
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .banner button{
+        padding: 12px 45px;
+        font-size: 18px;
+    }
+
+    .confi{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .fx{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main p{
+        width: 400px;
+    }
+
+    /*responsividade home*/
+    
+    .campos input{
+        min-width: 120%;
+    }
+
+    .campos button{
+        min-width: 50%;
+    }
+}

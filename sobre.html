@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Logomarca">
+	<meta name="description" content="A Logomarca e uma Empresa de Desenvolvimento web...">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Sobre - Logomarca</title>
+    <script src="https://kit.fontawesome.com/7a98acb87b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html"><h2>Logomarca</h2></a>
+        </div>
+
+        <nav id="nav">
+            <button id="btn-mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="">Empresa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Sobre</h2>
+
+        <p>Quis non ad mollit duis deserunt sit amet eiusmod occaecat in consectetur magna commodo elit laborum magna cupidatat voluptate.</p>
+    </section>
+
+    <section class="main">
+        <img src="img/img2.jpg" alt="imagens" class="fx">
+        
+        <p>Ea ut tempor ut commodo cillum ad cupidatat consequat in aute magna non. Dolor mollit elit nostrud duis ullamco officia sed culpa voluptate id laborum enim veniam aliquip. Ea ut tempor ut commodo cillum ad cupidatat consequat in aute magna non. Dolor mollit elit nostrud duis ullamco officia sed culpa voluptate id laborum enim veniam aliquip. <br> <br>
+        
+        Ea ut tempor ut commodo cillum ad cupidatat consequat in aute magna non. Dolor mollit elit nostrud duis ullamco officia sed culpa voluptate id laborum enim veniam aliquip. Ea ut tempor ut commodo cillum ad cupidatat consequat in aute magna non. Dolor mollit elit nostrud duis ullamco officia sed culpa voluptate id laborum enim veniam aliquip.
+        </p>
+    </section>
+
+    <section class="team">
+        <div class="group">
+            <div class="layer2"></div>
+            <h3>Equipe</h3>
+        </div>
+
+        <div class="group-2">
+            <div class="ifn-team">
+                <img src="img/lc.jpg" alt="" class="img2">
+                <h4>Luciano S. Garcia</h4>
+    
+                <p>Lorem ipsum quis proident deserunt dolor ut qui in et duis esse.</p>
+            </div>
+    
+            <div class="ifn-team">
+                <img src="img/lc.jpg" alt="" class="img2">
+                <h4>Luciano S. Garcia</h4>
+    
+                <p>Lorem ipsum quis proident deserunt dolor ut qui in et duis esse.</p>
+            </div>
+    
+            <div class="ifn-team">
+                <img src="img/lc.jpg" alt="" class="img2">
+                <h4>Luciano S. Garcia</h4>
+    
+                <p>Lorem ipsum quis proident deserunt dolor ut qui in et duis esse.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="historia">
+        <div class="layer3"></div>
+        <h3>Nossa história</h3>
+
+        <p>Voluptate laboris excepteur consequat aliquip ut dolor duis ullamco pariatur proident amet aliqua nulla magna reprehenderit dolore.
+            <br> <br>
+        Voluptate laboris excepteur consequat aliquip ut dolor duis ullamco pariatur proident amet aliqua nulla magna reprehenderit dolore.Oluptate laboris excepteur consequat aliquip ut dolor duis ullamco pariatur proident amet aliqua nulla magna reprehenderit dolore.</p>
+    </section>
+
+    <footer>
+        <div class="local">
+            <h3>Aonde estamos?</h3>
+            <p><i class="fas fa-road"></i> R. exemplo da silva, Coqueiros, Rio de janeiro/RJ</p>
+
+            <b><i class="fas fa-phone-alt"></i> (48)9999-9999</b>
+
+            <b><i class="fas fa-phone-alt"></i> (21)9999-9999</b>
+        </div>
+
+        <div class="nav-bar">
+            <h3>Links Úteis</h3>
+
+            <ol>
+                <li><a href="index.html">Logomarca</a></li>
+                <li><a href="">W3Schools</a></li>
+                <li><a href="">Danki Code</a></li>
+
+                <li><a href="">Contato</a></li>
+            </ol>
+        </div>
+
+        <div class="redes">
+            <h3>Conecte-se conosco</h3>
+
+            <a href="https://www.instagram.com/lc.garcia21/"><i class="fab fa-instagram"></i></a>
+
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        <span>Todos Direitos Reservados</span>
+    </div>
+
+    <script>
+        const btnMobile = document.getElementById('btn-mobile');
+
+        function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+        }
+
+        btnMobile.addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>
