@@ -240,6 +240,9 @@ body{
 }
 
 @media screen and (max-width:768px){
+    .contact{
+        min-width: 200px;
+    }
     .fx{
         width: 100%;
         margin: 0 auto;
